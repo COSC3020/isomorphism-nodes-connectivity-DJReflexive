@@ -19,12 +19,17 @@ Since it is stated graphs A and B have an equal number of nodes, this means that
 
 ### Part 2: Showing that a Bijection Exists
 
+A completely connected graph can be defined as a graph with all nodes having an edge leading to every other node in the graph. Any pair of nodes has an edge between them. 
+
 Assume $A = (V_A,\ E_A)$ and $B = (V_B,\ E_B)$ and that\
-$(v_{a1},\ v_{a2},\ v_{a3},\ \dots,\ v_{an}) \in V_A$ and $(v_{b1},\ v_{b2},\ v_{b3},\ \dots,\ v_{bn}) \in V_B$
+$v_{a1},\ v_{a2} \in V_A$ and $v_{b1},\ v_{b2}, \in V_B$
 
-A completely connected graph can be defined as a graph with a nodes having an edge leading to every other node in the graph. Because of this, we can arbitrarily assign all elements in $V_A$ to $V_B$ (or $f: V_A \to V_B$) because all elements resemble each other and can be mapped successfully. This also preserves edge relationships since E is dependant on V in both graphs.
+Since these are pairs of nodes in their respective graphs, there is an edge between them. $(v_{a1},\ v_{a2})$ and $(v_{b1},\ v_{b2})$. 
 
-This shows a bijection and that the two graphs, A and B, are isomorphic.
+Mapping $V_A$ to $V_B$ with $f: V_A \to V_B$:\
+$(f(v_{a1}),\ f(v_{a2})) = (v_{b1},\ v_{b2})$
+
+This shows a bijection and that the two graphs, A and B, are isomorphic. This process is true for all nodes and edges within the two graphs.
 
 
 # Sources
